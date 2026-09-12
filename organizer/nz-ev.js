@@ -159,8 +159,9 @@ function menuKur() {
     /* secenek kutusu: tema variant-box'un yerine (varsa oraya, yoksa dugmelerin ustune) */
     if (!document.getElementById('ev-secenekler')) {
       var kutu = document.createElement('div'); kutu.id = 'ev-secenekler';
-      var vb = pp.querySelector('.variant-box'), pb = pp.querySelector('.product-buttons');
-      if (vb) vb.parentNode.insertBefore(kutu, vb); else if (pb) pb.parentNode.insertBefore(kutu, pb); else pp.appendChild(kutu);
+      /* lamba duzeni: baslik > fiyat listesi (ul.product-profile-info) > SECENEKLER > (ozel alan, ozet) > dugmeler */
+      var info = pp.querySelector('ul.product-profile-info'), vb = pp.querySelector('.variant-box'), pb = pp.querySelector('.product-buttons');
+      if (info) info.insertAdjacentElement('afterend', kutu); else if (vb) vb.parentNode.insertBefore(kutu, vb); else if (pb) pb.parentNode.insertBefore(kutu, pb); else pp.appendChild(kutu);
     }
     /* fiyat notu (setler) */
     if (u.fiyat_not && !pp.querySelector('.ev-fiyat-not')) { var sp = pp.querySelector('.sale-price'); if (sp) { var fn = document.createElement('div'); fn.className = 'ev-fiyat-not'; fn.textContent = u.fiyat_not; sp.insertAdjacentElement('afterend', fn); } }
@@ -368,7 +369,8 @@ function menuKur() {
      Canlida "Renk Kombinasyonu" ozel alani panelde tanimlanir; tema kutuyu basarsa doldururuz, basmazsa gizli girdi olusturup doldururuz. */
   function ozelAlanYaz() {
     var pp = document.querySelector('.product-profile-1'); if (!pp) return;
-    var idEl = pp.querySelector('[data-product-id]'); var pid = idEl ? idEl.getAttribute('data-product-id') : (u.urun_id || '0');
+    var v2 = document.querySelector('div[data-product-special-fields-v2]'), idEl = document.querySelector('[data-product-id]');
+    var pid = v2 ? v2.getAttribute('data-product-special-fields-v2') : (idEl ? idEl.getAttribute('data-product-id') : (u.urun_id || '0'));
     /* Erpin 5.2 ozel alani v2 kutusuyla basiyor: div[data-product-special-fields-v2=ID] > input.field-input[name=<alan id>] */
     var div = document.querySelector('div[data-product-special-fields-v2="' + pid + '"]') || document.querySelector('div[data-product-special-fields="' + pid + '"]');
     if (!div) { div = document.createElement('div'); div.setAttribute('data-product-special-fields', pid); div.className = 'ev-ozel-alan'; div.style.display = 'none'; var vb = pp.querySelector('.variant-box') || pp; vb.appendChild(div); }
