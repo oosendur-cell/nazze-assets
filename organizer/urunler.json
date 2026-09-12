@@ -1,0 +1,860 @@
+{
+ "seri": "Ev Organizatör",
+ "renkler": {
+  "kaynak": "NAZZE_Renk_Kartelasi.xlsx (11.09.2026); Silk White eski deger #f5f1ea (omer karari)",
+  "standart": [
+   [
+    "Chinese Red",
+    "#a42b27"
+   ],
+   [
+    "RGB Blue",
+    "#002e82"
+   ],
+   [
+    "Silk Black",
+    "#2b2b2b"
+   ],
+   [
+    "Emerald",
+    "#00484a"
+   ],
+   [
+    "Peak Green",
+    "#a1da7c"
+   ],
+   [
+    "Soft Blue",
+    "#6bc5f5"
+   ],
+   [
+    "Magenta",
+    "#b43b5f"
+   ]
+  ],
+  "katalog": [
+   [
+    "Silk White",
+    "#f5f1ea"
+   ],
+   [
+    "Almond Yellow",
+    "#e6d9a7"
+   ],
+   [
+    "Apricot",
+    "#e9aa77"
+   ],
+   [
+    "Matte Lotus Powder",
+    "#f5b9c9"
+   ],
+   [
+    "Lilac",
+    "#cf9ad0"
+   ],
+   [
+    "Very Peri",
+    "#6667ab"
+   ],
+   [
+    "Mint Green",
+    "#b2d2b2"
+   ],
+   [
+    "Matcha Green",
+    "#8b976b"
+   ],
+   [
+    "Olive Green",
+    "#555a46"
+   ],
+   [
+    "Matte Terracotta",
+    "#654a42"
+   ],
+   [
+    "Matte Wine",
+    "#501522"
+   ],
+   [
+    "Matte Chocolate",
+    "#3b2e2b"
+   ],
+   [
+    "Matte Warm Grey",
+    "#696560"
+   ]
+  ],
+  "kodlar": {
+   "Chinese Red": "01",
+   "RGB Blue": "02",
+   "Silk Black": "03",
+   "Emerald": "04",
+   "Peak Green": "05",
+   "Soft Blue": "06",
+   "Magenta": "07",
+   "Silk White": "08",
+   "Almond Yellow": "09",
+   "Apricot": "10",
+   "Matte Lotus Powder": "11",
+   "Lilac": "12",
+   "Very Peri": "13",
+   "Mint Green": "14",
+   "Matcha Green": "15",
+   "Olive Green": "16",
+   "Matte Terracotta": "17",
+   "Matte Wine": "18",
+   "Matte Chocolate": "19",
+   "Matte Warm Grey": "20"
+  }
+ },
+ "urunler": [
+  {
+   "slug": "masa-organizeri-moduler",
+   "ad": "Kubo Modüler Masa Organizeri",
+   "aciklama": "Yivli 2×2 taban + 6 kutu: küçük, en küçük (alçak), orta, büyük tabanda; orta geniş ve büyük geniş yanda. Yedi parça ayrı renk seçilebilir.",
+   "glb": "masa-organizeri-moduler.glb?v=4",
+   "hero": [
+    "hero-moduler-2.jpg",
+    "hero-moduler-3.jpg",
+    "hero-moduler-1.jpg"
+   ],
+   "kamera": "-35deg 52deg auto",
+   "parcalar": [
+    {
+     "ad": "Taban",
+     "mat": "MAT_Taban",
+     "renk": "Almond Yellow"
+    },
+    {
+     "ad": "Küçük kutu",
+     "mat": "MAT_Kucuk",
+     "renk": "Very Peri"
+    },
+    {
+     "ad": "En küçük (alçak)",
+     "mat": "MAT_EnKucuk",
+     "renk": "Matte Lotus Powder"
+    },
+    {
+     "ad": "Orta kutu",
+     "mat": "MAT_Orta",
+     "renk": "Mint Green"
+    },
+    {
+     "ad": "Büyük kutu",
+     "mat": "MAT_Buyuk",
+     "renk": "RGB Blue"
+    },
+    {
+     "ad": "Orta geniş kutu",
+     "mat": "MAT_OrtaGenis",
+     "renk": "Matte Lotus Powder"
+    },
+    {
+     "ad": "Büyük geniş kutu",
+     "mat": "MAT_BuyukGenis",
+     "renk": "Very Peri"
+    }
+   ],
+   "olcu": {
+    "g": 16.5,
+    "d": 16.5,
+    "y": 10.5
+   },
+   "eski_ad": "Masa Organizeri — Modüler",
+   "isim": "Kubo",
+   "tur": "Modüler Masa Organizeri",
+   "fiyat": 1690,
+   "kod": "KUBO"
+  },
+  {
+   "slug": "masa-organizeri-egik",
+   "ad": "Bent Modüler Masa Organizeri",
+   "isim": "Bent",
+   "tur": "Modüler Masa Organizeri",
+   "eski_ad": "Modular Desk Organiser Type 8",
+   "aciklama": "Yivli, önü alçak arkası yüksek taban + iki yuvaya oturan iki bölme: eğik ağızlı uzun bölme ve bölücülü kare bölme. Bölmeler yuvalara istenen sırada yerleşir; üç parça ayrı renk seçilebilir.",
+   "hero": [
+    "hero-bento-1.jpg",
+    "hero-bento-2.jpg",
+    "hero-bento-3.jpg"
+   ],
+   "glb": "masa-organizeri-egik.glb?v=1",
+   "kamera": "-30deg 58deg auto",
+   "parcalar": [
+    {
+     "ad": "Taban",
+     "mat": "MAT_Taban",
+     "renk": "Almond Yellow"
+    },
+    {
+     "ad": "Eğik bölme",
+     "mat": "MAT_Egik",
+     "renk": "Very Peri"
+    },
+    {
+     "ad": "Kare bölme",
+     "mat": "MAT_Kare",
+     "renk": "Very Peri"
+    }
+   ],
+   "olcu": {
+    "g": 18.5,
+    "d": 11.5,
+    "y": 11
+   },
+   "fiyat": 1490,
+   "kod": "BENT"
+  },
+  {
+   "slug": "masa-organizeri",
+   "ad": "Ovo Masa Organizeri",
+   "aciklama": "Yivli oval taban + yuvaya oturan üç ek parça: delikli kalemlik, telefon standı, kalem kutusu. Dört parça ayrı renk seçilebilir.",
+   "glb": "masa-organizeri.glb?v=4",
+   "hero": [
+    "hero-masa-4.jpg",
+    "hero-masa-3.jpg",
+    "hero-masa-2.jpg",
+    "hero-masa-1.jpg"
+   ],
+   "kamera": "30deg 55deg auto",
+   "parcalar": [
+    {
+     "ad": "Taban",
+     "mat": "MAT_Tepsi",
+     "renk": "Soft Blue"
+    },
+    {
+     "ad": "Kalemlik (delikli)",
+     "mat": "MAT_Kalemlik",
+     "renk": "Apricot"
+    },
+    {
+     "ad": "Telefon standı",
+     "mat": "MAT_TelefonStandi",
+     "renk": "Apricot"
+    },
+    {
+     "ad": "Kalem kutusu",
+     "mat": "MAT_KalemKutusu",
+     "renk": "Apricot"
+    }
+   ],
+   "olcu": {
+    "g": 20.5,
+    "d": 14.5,
+    "y": 11
+   },
+   "eski_ad": "Masa Organizeri",
+   "isim": "Ovo",
+   "tur": "Masa Organizeri",
+   "fiyat": 1490,
+   "kod": "OVO"
+  },
+  {
+   "slug": "masa-organizeri-uzun",
+   "ad": "Tana Masa Organizeri",
+   "aciklama": "Yanları yivli, geniş masa organizeri: iki kademeli raf + yan bölme. Tek parça.",
+   "glb": "masa-organizeri-uzun.glb?v=3",
+   "hero": [
+    "hero-uzun-5.jpg",
+    "hero-uzun-3.jpg",
+    "hero-uzun-1.jpg",
+    "hero-uzun-2.jpg",
+    "hero-uzun-4.jpg"
+   ],
+   "kamera": "36deg 62deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Very Peri"
+    }
+   ],
+   "olcu": {
+    "g": 20.5,
+    "d": 11,
+    "y": 11
+   },
+   "eski_ad": "Masa Organizeri — Uzun",
+   "isim": "Tana",
+   "tur": "Masa Organizeri",
+   "fiyat": 1190,
+   "kod": "TANA"
+  },
+  {
+   "slug": "masa-organizeri-dairesel",
+   "ad": "Enso Masa Organizeri",
+   "aciklama": "Yivli dairesel taban (ortada kalemlik silindiri) + 6 adet çıkarılabilir yivli dilim. Taban ve dilimler ayrı renk seçilebilir.",
+   "glb": "masa-organizeri-dairesel.glb?v=1",
+   "hero": [
+    "hero-dairesel-3.jpg",
+    "hero-dairesel-2.jpg",
+    "hero-dairesel-4.jpg",
+    "hero-dairesel-1.jpg"
+   ],
+   "kamera": "0deg 55deg auto",
+   "parcalar": [
+    {
+     "ad": "Dilimler (6)",
+     "mat": "MAT_Insert",
+     "renk": "Apricot"
+    },
+    {
+     "ad": "Taban + kalemlik",
+     "mat": "MAT_Taban",
+     "renk": "Almond Yellow"
+    }
+   ],
+   "olcu": {
+    "g": 17,
+    "d": 17,
+    "y": 10
+   },
+   "eski_ad": "Masa Organizeri — Dairesel",
+   "isim": "Enso",
+   "tur": "Masa Organizeri",
+   "fiyat": 1390,
+   "kod": "ENSO"
+  },
+  {
+   "slug": "kademeli-set",
+   "ad": "Tera Kademeli Organizer Seti",
+   "isim": "Tera",
+   "tur": "Kademeli Organizer Seti",
+   "eski_ad": "Stackable Desk Tray Type 3",
+   "aciklama": "Üst üste geçen üç yivli parça: büyük oval, orta oval ve küçük yuvarlak. Parçalar birbirine oturur; kademeli dizilip masada ataş, kalem ve küçük eşyaları ayırır. Her parça ayrı renk seçilebilir.",
+   "hero": [
+    "hero-tera-1.jpg",
+    "hero-tera-2.jpg",
+    "hero-tera-3.jpg"
+   ],
+   "glb": "kademeli-set.glb?v=1",
+   "kamera": "-35deg 62deg auto",
+   "parcalar": [
+    {
+     "ad": "Büyük",
+     "mat": "MAT_Buyuk",
+     "renk": "Peak Green"
+    },
+    {
+     "ad": "Orta",
+     "mat": "MAT_Orta",
+     "renk": "Peak Green"
+    },
+    {
+     "ad": "Küçük",
+     "mat": "MAT_Kucuk",
+     "renk": "Peak Green"
+    }
+   ],
+   "olcu": {
+    "g": 19,
+    "d": 9.5,
+    "y": 8
+   },
+   "fiyat": 990,
+   "fiyat_not": "3'lü set",
+   "kod": "TERA"
+  },
+  {
+   "slug": "kalemlik-kademeli",
+   "ad": "Kaida Kalemlik",
+   "aciklama": "Dört kademeli, eğik raflı dikey kalemlik; altta not kâğıdı yuvası; yanları ve arkası yivli. Tek parça.",
+   "glb": "kalemlik-kademeli.glb?v=1",
+   "hero": [
+    "hero-kademeli-3.jpg",
+    "hero-kademeli-2.jpg",
+    "hero-kademeli-1.jpg",
+    "hero-kademeli-4.jpg"
+   ],
+   "kamera": "35deg 62deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Almond Yellow"
+    }
+   ],
+   "olcu": {
+    "g": 10,
+    "d": 9.5,
+    "y": 18
+   },
+   "eski_ad": "Kademeli Kalemlik",
+   "isim": "Kaida",
+   "tur": "Kalemlik",
+   "fiyat": 990,
+   "kod": "KAIDA"
+  },
+  {
+   "slug": "kalem-kutusu",
+   "ad": "Fude Kalem Kutusu",
+   "aciklama": "Yivli gövde + sürgülü kapak (kapak aynı zamanda bölme) + içinde uzun bölme ve açık uçta onun üstüne oturan küçük bölme. Dört parça ayrı renk seçilebilir.",
+   "glb": "kalem-kutusu.glb?v=2",
+   "hero": [
+    "hero-kalem-1.jpg",
+    "hero-kalem-3.jpg",
+    "hero-kalem-2.jpg"
+   ],
+   "kamera": "-40deg 46deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Govde",
+     "renk": "Olive Green"
+    },
+    {
+     "ad": "Sürgülü kapak",
+     "mat": "MAT_Kapak",
+     "renk": "Silk White"
+    },
+    {
+     "ad": "Uzun bölme",
+     "mat": "MAT_UzunTepsi",
+     "renk": "Silk White"
+    },
+    {
+     "ad": "Küçük bölme",
+     "mat": "MAT_KucukTepsi",
+     "renk": "Silk White"
+    }
+   ],
+   "olcu": {
+    "g": 18.5,
+    "d": 6.5,
+    "y": 4.5
+   },
+   "eski_ad": "Sürgülü Kalem Kutusu",
+   "isim": "Fude",
+   "tur": "Kalem Kutusu",
+   "fiyat": 890,
+   "kod": "FUDE"
+  },
+  {
+   "slug": "defter-tutucu",
+   "ad": "Noto Defter Tutucu",
+   "aciklama": "Yivli oval taban + ortada defter yuvası (tek parça) ve yuvanın iki ucunu saran iki U bölme: yüksek (kalemler) ve alçak (küçük eşya). Üç parça ayrı renk seçilebilir.",
+   "glb": "defter-tutucu.glb?v=1",
+   "hero": [
+    "hero-defter-3.jpg",
+    "hero-defter-4.jpg"
+   ],
+   "kamera": "-35deg 66deg auto",
+   "parcalar": [
+    {
+     "ad": "Taban + defter yuvası",
+     "mat": "MAT_Taban",
+     "renk": "Matte Warm Grey"
+    },
+    {
+     "ad": "Yüksek U bölme",
+     "mat": "MAT_Insert1",
+     "renk": "Matte Warm Grey"
+    },
+    {
+     "ad": "Alçak U bölme",
+     "mat": "MAT_Insert3",
+     "renk": "Apricot"
+    }
+   ],
+   "olcu": {
+    "g": 22.5,
+    "d": 10.5,
+    "y": 10
+   },
+   "eski_ad": "Defter Tutucu — Masa Organizeri",
+   "isim": "Noto",
+   "tur": "Defter Tutucu",
+   "fiyat": 990,
+   "kod": "NOTO"
+  },
+  {
+   "slug": "telefon-standi",
+   "ad": "Ori Telefon Standı",
+   "aciklama": "Tek parça kıvrımlı telefon standı; ön dudak ve üst kıvrım yivli. Tek parça.",
+   "glb": "telefon-standi.glb?v=1",
+   "hero": [
+    "hero-telefon-2.jpg",
+    "hero-telefon-1.jpg"
+   ],
+   "kamera": "35deg 68deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Almond Yellow"
+    }
+   ],
+   "olcu": {
+    "g": 8.5,
+    "d": 6,
+    "y": 8
+   },
+   "eski_ad": "Telefon Standı",
+   "isim": "Ori",
+   "tur": "Telefon Standı",
+   "fiyat": 690,
+   "kod": "ORI"
+  },
+  {
+   "slug": "telefon-standi-bolmeli",
+   "ad": "Daiza Telefon Standı",
+   "aciklama": "Düz yüzeyli telefon standı + önünde küçük eşya bölmesi; arkada kablo geçişi. Tek parça.",
+   "glb": "telefon-standi-bolmeli.glb?v=1",
+   "hero": [
+    "hero-daiza-3.jpg",
+    "hero-daiza-2.jpg",
+    "hero-daiza-1.jpg"
+   ],
+   "kamera": "40deg 58deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Emerald"
+    }
+   ],
+   "olcu": {
+    "g": 15.5,
+    "d": 8,
+    "y": 10
+   },
+   "eski_ad": "Telefon Standı — Bölmeli",
+   "isim": "Daiza",
+   "tur": "Telefon Standı",
+   "fiyat": 790,
+   "kod": "DAIZA"
+  },
+  {
+   "slug": "sarj-standi",
+   "ad": "Orbe MagSafe Şarj Standı",
+   "isim": "Orbe",
+   "tur": "MagSafe Şarj Standı",
+   "eski_ad": "MagSafe Charging Stand",
+   "aciklama": "Küre formlu MagSafe şarj standı. Şarj diski 45° eğimli yuvaya oturur; kablo yuvadaki geçişten içeri girip alttan çıkar. İki model: Düz ve Yivli. MagSafe şarj cihazı dahil değildir.",
+   "hero": [
+    "hero-sarj-1.jpg",
+    "hero-sarj-4.jpg",
+    "hero-sarj-5.jpg",
+    "hero-sarj-2.jpg",
+    "hero-sarj-3.jpg"
+   ],
+   "kamera": "-30deg 62deg auto",
+   "olcu": {
+    "g": 10.5,
+    "d": 10.5,
+    "y": 9.2
+   },
+   "glb": "sarj-standi-duz.glb?v=2",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Apricot"
+    }
+   ],
+   "varyantlar": [
+    {
+     "kod": "duz",
+     "ad": "Düz",
+     "glb": "sarj-standi-duz.glb?v=2",
+     "hero": [
+      "hero-sarj-4.jpg",
+      "hero-sarj-5.jpg"
+     ],
+     "parcalar": [
+      {
+       "ad": "Gövde",
+       "mat": "MAT_Body",
+       "renk": "Apricot"
+      }
+     ],
+     "olcu": {
+      "g": 10.5,
+      "d": 10.5,
+      "y": 9.2
+     },
+     "harf": "D"
+    },
+    {
+     "kod": "yivli",
+     "ad": "Yivli",
+     "glb": "sarj-standi-yivli.glb?v=2",
+     "hero": [
+      "hero-sarj-2.jpg",
+      "hero-sarj-3.jpg"
+     ],
+     "parcalar": [
+      {
+       "ad": "Gövde",
+       "mat": "MAT_Body",
+       "renk": "RGB Blue"
+      }
+     ],
+     "olcu": {
+      "g": 10.6,
+      "d": 10.6,
+      "y": 9.3
+     },
+     "harf": "Y"
+    }
+   ],
+   "yuvarlak": true,
+   "fiyat": 990,
+   "kod": "ORBE"
+  },
+  {
+   "slug": "telefon-organizeri",
+   "ad": "Nido MagSafe Masa Organizeri",
+   "isim": "Nido",
+   "tur": "MagSafe Masa Organizeri",
+   "eski_ad": "Phone Holder Desk Organiser Type 10 Style 2 MagSafe",
+   "aciklama": "Oval, yivli masa organizeri: ortada 45° eğimli MagSafe yuvası, iki yanda kalem ve küçük eşya bölmeleri. Şarj diski yuvaya oturur; kablo arkadaki çentikten çıkar. MagSafe şarj cihazı dahil değildir.",
+   "hero": [
+    "hero-torg-1.jpg",
+    "hero-torg-3.jpg",
+    "hero-torg-2.jpg",
+    "hero-torg-4.jpg",
+    "hero-torg-5.jpg"
+   ],
+   "glb": "telefon-organizeri.glb?v=1",
+   "kamera": "-30deg 58deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Mint Green"
+    }
+   ],
+   "olcu": {
+    "g": 19,
+    "d": 10,
+    "y": 9
+   },
+   "fiyat": 1390,
+   "kod": "NIDO"
+  },
+  {
+   "slug": "masa-duzenleyici",
+   "ad": "Plato Masa Düzenleyici",
+   "isim": "Plato",
+   "tur": "Masa Düzenleyici",
+   "eski_ad": "Catchall Tray Type 2",
+   "aciklama": "Yivli kenarlı, alçak masa düzenleyici: telefon için uzun bölme, kulaklık ve küçük eşya için iki kare bölme. Ön kenardaki çentiklerden şarj kabloları geçer; telefon ve kulaklık yerinde şarj olur.",
+   "hero": [
+    "hero-plato-1.jpg",
+    "hero-plato-2.jpg",
+    "hero-plato-3.jpg"
+   ],
+   "glb": "masa-duzenleyici.glb?v=1",
+   "kamera": "-35deg 58deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Apricot"
+    }
+   ],
+   "olcu": {
+    "g": 19.5,
+    "d": 18.5,
+    "y": 1.7
+   },
+   "fiyat": 1290,
+   "kod": "PLATO"
+  },
+  {
+   "slug": "kulaklik-standi",
+   "ad": "Torii Kulaklık Standı",
+   "aciklama": "Dalgalı profilli kemer, tabanında küçük eşya bölmesi.",
+   "glb": "kulaklik-standi.glb?v=5",
+   "hero": [
+    "hero-kulaklik-1.jpg",
+    "hero-kulaklik.jpg",
+    "hero-kulaklik-3.jpg"
+   ],
+   "kamera": "40deg 78deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Silk White"
+    }
+   ],
+   "olcu": {
+    "g": 13.5,
+    "d": 7,
+    "y": 25.5
+   },
+   "eski_ad": "Kulaklık Standı",
+   "isim": "Torii",
+   "tur": "Kulaklık Standı",
+   "fiyat": 990,
+   "kod": "TORII"
+  },
+  {
+   "slug": "kulaklik-standi-yivli",
+   "ad": "Rill Kulaklık Standı",
+   "aciklama": "Dış yüzeyi yivli kemer, tabanında küçük eşya bölmesi. Tek parça.",
+   "glb": "kulaklik-standi-yivli.glb?v=1",
+   "hero": [
+    "hero-kulaklik-yivli-3.jpg",
+    "hero-kulaklik-yivli-1.jpg",
+    "hero-kulaklik-yivli-2.jpg"
+   ],
+   "kamera": "40deg 75deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "RGB Blue"
+    }
+   ],
+   "olcu": {
+    "g": 13.5,
+    "d": 7,
+    "y": 25.5
+   },
+   "eski_ad": "Kulaklık Standı — Yivli",
+   "isim": "Rill",
+   "tur": "Kulaklık Standı",
+   "fiyat": 990,
+   "kod": "RILL"
+  },
+  {
+   "slug": "kumanda-kutusu",
+   "ad": "Hako Kumanda Kutusu",
+   "aciklama": "Yivli, eğik ağızlı kumanda kutusu; içinde iki bölme. Tek parça.",
+   "glb": "kumanda-kutusu.glb?v=1",
+   "hero": [
+    "hero-kumanda-1.jpg",
+    "hero-kumanda-2.jpg"
+   ],
+   "kamera": "-35deg 60deg auto",
+   "parcalar": [
+    {
+     "ad": "Gövde",
+     "mat": "MAT_Body",
+     "renk": "Matcha Green"
+    }
+   ],
+   "olcu": {
+    "g": 16,
+    "d": 11,
+    "y": 14.5
+   },
+   "eski_ad": "Kumanda Kutusu",
+   "isim": "Hako",
+   "tur": "Kumanda Kutusu",
+   "fiyat": 1390,
+   "kod": "HAKO"
+  },
+  {
+   "slug": "bardak-altligi-seti",
+   "ad": "Pila Bardak Altlığı Seti",
+   "aciklama": "Dalgalı kenarlı Stand + 4 yuvarlak bardak altlığı. Stand ve altlıklar ayrı renk seçilebilir.",
+   "glb": "bardak-altligi-seti.glb?v=5",
+   "hero": [
+    "hero-bardak-1.jpg",
+    "hero-bardak-2.jpg"
+   ],
+   "kamera": "30deg 52deg auto",
+   "parcalar": [
+    {
+     "ad": "Stand",
+     "mat": "MAT_Tepsi",
+     "renk": "Apricot"
+    },
+    {
+     "ad": "Bardak altlıkları",
+     "mat": "MAT_Altlik",
+     "renk": "Apricot"
+    }
+   ],
+   "olcu": {
+    "g": 10.5,
+    "d": 10,
+    "y": 3
+   },
+   "eski_ad": "Bardak Altlığı Seti",
+   "isim": "Pila",
+   "tur": "Bardak Altlığı Seti",
+   "fiyat": 690,
+   "fiyat_not": "4'lü set (Stand + 4 altlık)",
+   "kod": "PILA"
+  },
+  {
+   "slug": "bardak-altligi-seti-yivli",
+   "ad": "Fluto Bardak Altlığı Seti",
+   "aciklama": "Yivli (fitilli) Stand + 4 yivli kenarlı bardak altlığı. Stand ve altlıklar ayrı renk seçilebilir.",
+   "glb": "bardak-altligi-seti-yivli.glb?v=4",
+   "hero": [
+    "hero-yivli-1.jpg",
+    "hero-yivli-2.jpg"
+   ],
+   "kamera": "30deg 52deg auto",
+   "parcalar": [
+    {
+     "ad": "Stand",
+     "mat": "MAT_Tepsi",
+     "renk": "Matcha Green"
+    },
+    {
+     "ad": "Bardak altlıkları",
+     "mat": "MAT_Altlik",
+     "renk": "Matcha Green"
+    }
+   ],
+   "olcu": {
+    "g": 10.5,
+    "d": 10,
+    "y": 3
+   },
+   "eski_ad": "Bardak Altlığı Seti — Yivli",
+   "isim": "Fluto",
+   "tur": "Bardak Altlığı Seti",
+   "fiyat": 690,
+   "fiyat_not": "4'lü set (Stand + 4 altlık)",
+   "kod": "FLUTO"
+  },
+  {
+   "slug": "bardak-altligi-seti-cizgili",
+   "ad": "Lina Bardak Altlığı Seti",
+   "aciklama": "Yatay çizgili Stand + 4 boncuk kenarlı bardak altlığı. Stand ve altlıklar ayrı renk seçilebilir.",
+   "glb": "bardak-altligi-seti-cizgili.glb?v=4",
+   "hero": [
+    "hero-cizgili-1.jpg",
+    "hero-cizgili-2.jpg"
+   ],
+   "kamera": "30deg 52deg auto",
+   "parcalar": [
+    {
+     "ad": "Stand",
+     "mat": "MAT_Tepsi",
+     "renk": "Matte Lotus Powder"
+    },
+    {
+     "ad": "Bardak altlıkları",
+     "mat": "MAT_Altlik",
+     "renk": "Matte Lotus Powder"
+    }
+   ],
+   "olcu": {
+    "g": 10.5,
+    "d": 10,
+    "y": 3
+   },
+   "eski_ad": "Bardak Altlığı Seti — Çizgili",
+   "isim": "Lina",
+   "tur": "Bardak Altlığı Seti",
+   "fiyat": 690,
+   "fiyat_not": "4'lü set (Stand + 4 altlık)",
+   "kod": "LINA"
+  }
+ ],
+ "ortam": "studyo.hdr",
+ "exposure": 1.0
+}
